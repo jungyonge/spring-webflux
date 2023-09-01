@@ -1,0 +1,5 @@
+spring:
+  r2dbc:
+    pool:
+      max-size: 100
+      validation-query: SELECT 1
