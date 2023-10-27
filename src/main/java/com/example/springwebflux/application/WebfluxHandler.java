@@ -23,6 +23,8 @@ public class WebfluxHandler {
         Flux<Webflux> tt = webfluxRepository.findAll();
 
         System.out.println(tt);
+        System.out.println(tt);
+
 
     }
 

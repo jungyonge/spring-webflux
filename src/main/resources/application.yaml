@@ -1,5 +1,8 @@
 spring:
   r2dbc:
+    url: r2dbc:mysql://jungyongbox.cwpqs9pmrl3s.ap-northeast-2.rds.amazonaws.com:3306/webflux
+    username: admin
+    password: Wjddyd!0619
     pool:
       max-size: 100
       validation-query: SELECT 1
