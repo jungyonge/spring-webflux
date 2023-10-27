@@ -14,6 +14,9 @@ public class WebfluxController {
     @GetMapping("/test")
     public void test() {
         webfluxHandler.insetTest();
+        webfluxHandler.insetTest();
+        webfluxHandler.insetTest();
+
     }
 
 }
